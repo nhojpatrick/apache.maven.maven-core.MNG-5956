@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.github.nhojpatrick</groupId>
-        <artifactId>apache.maven.maven-core.MNG-5956-parent</artifactId>
+        <artifactId>apache.maven.maven-core.MNG-5956-simple-parent</artifactId>
         <version>1</version>
         <relativePath>..</relativePath>
     </parent>
-    <artifactId>apache.maven.maven-core.MNG-5956-sub-module-1</artifactId>
+    <artifactId>apache.maven.maven-core.MNG-5956-simple-sub-module-1</artifactId>
     <packaging>pom</packaging>
     <modules>
         <module>../common</module>
