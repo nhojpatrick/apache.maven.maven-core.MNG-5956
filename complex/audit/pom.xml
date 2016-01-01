@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.github.nhojpatrick</groupId>
+        <artifactId>apache.maven.maven-core.MNG-5956-complex-parent</artifactId>
+        <version>1</version>
+        <relativePath>..</relativePath>
+    </parent>
+    <artifactId>apache.maven.maven-core.MNG-5956-complex-audit</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>audit</module>
+        <module>utils</module>
+        <!-- ideally add the following to ensure that the xsd on disk are also installed into the local repo -->
+        <!--module>../xsd</module-->
+        <!--module>../xmlbeans/audit</module-->
+        <!--module>../xmlbeans/security</module-->
+    </modules>
+</project>
